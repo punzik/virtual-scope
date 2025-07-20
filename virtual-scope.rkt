@@ -80,7 +80,7 @@
          (send dc draw-line ax ay bx by)))
      (drop points 1)
      (take points (- draw-count 1))
-     (iota draw-count))))
+     (iota (- draw-count 1)))))
 
 ;;;
 ;;; MAIN
